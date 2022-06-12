@@ -12,6 +12,10 @@ html{
     height: 100vh;
     align-items: center;
     justify-content: center;
+    opacity:1;
+    animation-property:welcome;
+    animation-duration:3s;
+    animation-timing-function:ease-in;
 }
 #c001{
     
@@ -92,6 +96,14 @@ html{
 /* #c001:hover{
     background-image: linear-gradient( blue,red);
 } */
+@keyframes welcome{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
 @keyframes gradient{
     from{
         transform: rotate(0deg);
@@ -100,3 +112,4 @@ html{
         transform: rotate(360deg);
     }
 }
+
