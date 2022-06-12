@@ -13,7 +13,7 @@ html{
     align-items: center;
     justify-content: center;
     opacity:1;
-    animation-property:welcome;
+    animation-name:welcome;
     animation-duration:3s;
     animation-timing-function:ease-in;
 }
